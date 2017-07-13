@@ -9,7 +9,7 @@ int main (){
   cout << "Please enter a number:" << endl;
   cin >> number; 
   
-   guess = n / 2;
+   guess = number / 2;
    
    do{
      previous_guess = guess;
